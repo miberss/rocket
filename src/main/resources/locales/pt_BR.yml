@@ -1,0 +1,29 @@
+messages:
+  bracket_color: "&7"
+  bracket_opening_text: "["
+  bracket_closing_text: "]"
+  main_color: "&a"
+  main_text: "Rocket"
+  prefix: "{bracket_color}{bracket_opening_text}{main_color}{main_text}{bracket_color}{bracket_closing_text}"
+  prefix_error: "{bracket_color}{bracket_opening_text}{error_color}{main_text}{bracket_color}{bracket_closing_text}"
+
+  error_color: "&c"
+  alt_error_color: "&e"
+  generic_error: "Erro: %s"
+
+  success_color: "&a"
+
+  invalid_action: "Ação inválida."
+  usage_template: "{error_color}Uso: "
+  rocket_command:
+    usage: "{prefix_error} {usage_template}/rocket <recarregar|desativar> <nome_do_script|configuração>"
+    scripts_folder_not_found: "{prefix} {error_color}Pasta de scripts não encontrada."
+    script_not_found: "{prefix_error} {error_color}Script '%s' não encontrado."
+    disabled_script: "{prefix} {success_color}Script '%s' foi desativado."
+    already_disabled: "{prefix_error} {error_color}Script '%s' já está desativado."
+    enabled_script: "{prefix} {success_color}Script '%s' foi ativado."
+    already_enabled: "{prefix_error} {error_color}Script '%s' já está ativado."
+
+    script_reloaded: "{prefix} {success_color}Script '%s' recarregado."
+
+    config_reloaded: "{prefix} {success_color}Configuração recarregada com sucesso."
